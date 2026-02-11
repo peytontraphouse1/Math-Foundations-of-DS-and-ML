@@ -1,0 +1,37 @@
+Question 3:
+Asked ChatGPT the following:
+1. Construct the SVD in python without numpy of the image, 
+which you can treat as a matrix 𝐴, with the SVD decomposition given by 𝐴 = 𝑈Σ𝑉⊤ 
+2. Plot the singular values of the image, which should be a decreasing function. 
+For each image, determine a reasonable location (call this 𝑘) at which the singular values level off 
+and are no longer decreasing rapidly. 
+3. Construct two matrices, 𝐴̃3 and 𝐴̃𝑘 𝐴̃3 = ∑ 𝒖𝑖𝝈𝑖𝒗𝒊 ⊤ 3 𝑖=1 and 𝐴̃𝑘 = ∑ 𝒖𝑖𝝈𝑖𝒗𝒊 ⊤ 𝑘 𝑖=1 where 𝑘 is the cutoff you 
+found for the image. 4. Visualize and compare 𝐴̃3 and 𝐴̃𝑘 to the full image, 𝐴. 
+Also generate the errors, 𝐸3 = 𝐴̃3 − 𝐴 and 𝐸𝑘 = 𝐴̃𝑘 − 𝐴 and comment on where the errors are located.
+
+Repeated the same for image 1 and image 2 in blackboard
+
+Image 1:
+
+
+
+
+
+
+
+
+Singular Value Graph:
+
+
+
+
+
+
+
+
+Original vs. Rank-3 vs. Rank-k
+
+
+
+
+
