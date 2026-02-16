@@ -253,7 +253,7 @@ def solve_and_compare(A, b, x_true, methods):
 
 def main():
     # Change this filename to your .txt file. Example: "hw2_data7.txt"
-    filename = "hw2_data1.txt"
+    filename = "HW2-Q1/HW2_data/hw2_data7.txt"
 
     # Load A from text file. np.loadtxt handles whitespace-separated numeric data.
     try:
@@ -273,7 +273,7 @@ def main():
     print(f"Matrix is {m} x {n}")
 
     # ground truth x_true = ones(n)
-    x_true = np.ones((n,2))
+    x_true = np.ones((n,5))
     b_true = A @ x_true
 
     # Symmetry / PD checks
