@@ -107,7 +107,7 @@ def backward_substitution(U, b, tol=1e-16):
     X = np.zeros((n, r), dtype=U.dtype)
 
     # diagonal exists for indices 0..min(m,n)-1
-    diag_len = min(m, n)
+   # diag_len = min(m, n)
 
     # iterate rows from bottom to top
     for row in range(m - 1, -1, -1):
