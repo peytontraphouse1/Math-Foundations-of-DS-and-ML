@@ -39,7 +39,7 @@ for i in range(2):  # change to range(12) to loop over all images
 
     # Compute the SVD
     U, S, Vt = np.linalg.svd(curr_img, full_matrices=True)
-
+    #print("A is", U*S*Vt)
     for j, k in enumerate(num_comp):
         plt.figure(i + 1)
         plt.subplot(4, 4, j + 1)
